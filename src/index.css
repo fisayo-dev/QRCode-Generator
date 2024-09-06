@@ -10,14 +10,24 @@
 }
 
 :root {
-  --app-bg-color: rgb(0, 8, 26);
+  --app-bg-color: rgb(1, 17, 56);
+  --dark-app-bg-color: rgb(0, 8, 26);
 }
 
 .bg-color {
   background-color: var(--app-bg-color);
 }
+
+.hover-bg-color {
+  background-color: var(--dark-app-bg-color);
+}
+
 .text-color {
   color: var(--app-bg-color);
+}
+
+.hover-text-color {
+  color: var(--dark-app-bg-color);
 }
 
 .app-container {

@@ -1,7 +1,9 @@
-const Button = () => {
+const Button = ({ children, styles="" }) => {
   return (
-    <button className="px-5 py-2 bg-white text-color rounded-md font-bold">Button</button>
-  )
-}
+    <button className={`${styles} px-5 py-2 bg-white text-color hover-text-color rounded-md font-bold`}>
+      {children}
+    </button>
+  );
+};
 
-export default Button
+export default Button;

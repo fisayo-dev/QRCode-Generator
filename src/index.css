@@ -42,8 +42,9 @@ input {
 input::placeholder {
   @apply text-slate-500
 }
+
 .app-container {
-  @apply container mx-auto px-6 
+  @apply container mx-auto px-6;
 }
 
 

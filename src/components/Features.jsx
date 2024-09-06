@@ -1,4 +1,5 @@
 import image from "../assets/image.png";
+import {Link} from 'react-router-dom'
 const Features = () => {
   return (
     <div className="container mx-auto px-4">
@@ -8,31 +9,34 @@ const Features = () => {
           <div className="grid-cols-1 items-center md:grid-cols-3 grid gap-10">
             <div className="bg-slate-700 mx-4 md:mx-0 text-slate-100 rounded-lg grid gap-2  text-left items-center h-25 overflow-hidden">
               <img src={image} alt="" draggable={false} />
-              <div className="p-5 grid gap-3">
+              <div className="p-5 grid gap-1">
                 <h2 className="font-bold text-2xl">Downlad Qr code</h2>
                 <p>
                   After genrating a Qr code you can download it using intrix and
                   it will be saved directly to your downloads folder.
                 </p>
+                <Link to="/generate" className="text-slate-100 font-bold">Try the app </Link>
               </div>
             </div>
             <div className="bg-slate-700 mx-4 md:mx-0 text-slate-100 rounded-lg grid gap-2 text-left items-center h-25 overflow-hidden">
               <img src={image} alt="" draggable={false} />
-              <div className="p-5 grid gap-3">
-                <h2 className="font-bold text-2xl">Qr Code Gnerator</h2>
+              <div className="p-5 grid gap-1">
+                <h2 className="font-bold text-2xl">Qr Code Generator</h2>
                 <p>
                   Intrix allows you to generate a qrcode for any link very fast
                 </p>
+                <Link to="/generate" className="text-slate-100 font-bold">Try the app </Link>
               </div>
             </div>
             <div className="bg-slate-700 mx-4 md:mx-0 text-slate-100 rounded-lg grid gap-2 text-left items-center h-25 overflow-hidden">
               <img src={image} alt="" draggable={false} />
-              <div className="p-5 grid gap-3">
+              <div className="p-5 grid gap-1">
                 <h2 className="font-bold text-2xl">Scan Code</h2>
                 <p>
                   Of course, you can just create only qr codes, you can scan any
                   qr code unsing intrix and it will give you the accurate link.
                 </p>
+                <Link to="/scanner" className="text-slate-100 font-bold">Try the app </Link>
               </div>
             </div>
           </div>

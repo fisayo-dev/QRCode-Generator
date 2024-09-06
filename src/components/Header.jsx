@@ -11,7 +11,7 @@ const Header = () => {
           </Link>
           <div className="flex text-center justify-center gap-3">
             <p className="cursor-pointer developer-drop-down-text relative">
-              <p className="">Developer</p>
+              <p>Developer</p>
               <div
                 className="hidden developer-drop-down border-2 bg-color border-slate-400  z-90 p-5 rounded-lg"
               >

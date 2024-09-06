@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -9,7 +10,9 @@ const Hero = () => {
             The fast QR Code link generator
           </h2>
           <p>Just paste link, click generate, wait a little and download.</p>
-          <Button styles="mx-auto">Get started now</Button>
+          <Link to="/generate">
+            <Button styles="mx-auto">Get started now</Button>
+          </Link>
         </div>
       </div>
     </div>

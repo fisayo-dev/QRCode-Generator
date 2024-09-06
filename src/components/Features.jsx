@@ -2,7 +2,7 @@ import image from "../assets/image.png";
 import { Link } from "react-router-dom";
 const Features = () => {
   return (
-    <div className="container mx-auto px-4">
+    <div className="container mx-auto px-6">
       <div className="grid gap-5 text-slate-200">
         <h2 className="text-center font-bold text-4xl">
           What's unique about us?

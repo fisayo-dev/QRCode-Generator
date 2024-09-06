@@ -41,9 +41,10 @@
 
 .developer-drop-down-text:hover .developer-drop-down{
   height: auto;
-  width: 500px;
+  width: 400px;
   top: 8vh;
   left: 50%;
+  text-align: left;
   position: absolute;
   display: block !important;
   transform: translate(-50%,0);

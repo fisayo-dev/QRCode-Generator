@@ -5,7 +5,7 @@ const AppLayout = ({children}) => {
   return (
     <div className="bg-color">
       <Header />
-      <div className="pt-20">
+      <div className="pt-20 grid gap-10">
         {children}
       </div>
       <Footer />

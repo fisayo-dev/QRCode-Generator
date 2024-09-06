@@ -1,10 +1,24 @@
+import Button from "../components/Button";
+
 const Generate = () => {
   return (
-    <div className="py-10">
-          <div className="app-container">
-              <div className="grid gap-2">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus voluptatem dolorum recusandae dignissimos!
-              </div>
+    <div className="py-10 h-[85vh]">
+      <div className="app-container">
+        <div className="py-5 grid justify-items-center">
+          <div className="grid gap-5">
+            <h2 className="text-center text-3xl font-bold">
+              What site would you like to visit to today?
+            </h2>
+            <div className="flex items-center bg-slate-200 rounded-lg p-5">
+              <input
+                type="text"
+                placeholder="Paste your link here. e.g https://www.anylink.com"
+              />
+            </div>
+            <div className="bg-slate-500 p-5 rounded-lg overflow-hidden"></div>
+            <Button>Generate</Button>
+          </div>
+        </div>
       </div>
     </div>
   );

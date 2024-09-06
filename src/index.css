@@ -34,6 +34,14 @@
   color: var(--dark-app-bg-color);
 }
 
+input {
+  @apply bg-transparent text-slate-700 w-full;
+  outline: none;
+}
+
+input::placeholder {
+  @apply text-slate-500
+}
 .app-container {
   @apply container mx-auto px-6 
 }

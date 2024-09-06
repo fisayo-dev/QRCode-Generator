@@ -3,7 +3,7 @@ const Features = () => {
   return (
     <div className="py-5">
       <div className="app-container">
-        <div className="grid justify-center">
+        <div className="grid justify-items-center">
 
         <div className="grid gap-5 text-slate-200">
           <h2 className="text-center font-bold text-4xl">

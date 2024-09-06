@@ -3,7 +3,9 @@ import AppLayout from "../layouts/AppLayout"
 const Home = () => {
   return (
     <AppLayout>
-      Hi
+      <div className="container mx-auto px-4 text-slate-300">
+       
+      </div>
     </AppLayout>
   )
 }

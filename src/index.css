@@ -17,3 +17,10 @@
 .bg-color {
   background-color: var(--app-bg-color);
 }
+.text-color {
+  color: var(--app-bg-color);
+}
+
+.app-container {
+  @apply max-w-7xl mx-auto
+}

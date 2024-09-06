@@ -3,11 +3,13 @@ import Header from "../components/Header"
 
 const AppLayout = ({children}) => {
   return (
-    <>
+    <div className="bg-color">
       <Header />
-      {children}
+      <div className="pt-20">
+        {children}
+      </div>
       <Footer />
-    </>
+    </div>
   )
 }
 

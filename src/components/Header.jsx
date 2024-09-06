@@ -6,7 +6,11 @@ const Header = () => {
       <div className="container mx-auto px-4 py-2">
         <div className="flex justify-between items-center">
           <h2 className="text-2xl font-bold">Intrix</h2>
-          <Button>Support</Button>
+          <div className="flex text-center justify-center gap-3">
+            <p>Developer</p>
+            <p>Support</p>
+          </div>
+          <Button>Github</Button>
         </div>
       </div>
     </div>

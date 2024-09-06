@@ -10,12 +10,7 @@ const Features = () => {
         <div>
           <div className="grid-cols-1 items-center md:grid-cols-3 grid gap-10">
             <div className="bg-slate-800 mx-4 md:mx-0 text-slate-100 rounded-lg grid gap-2  text-left items-center h-25 overflow-hidden">
-              <img
-                src={image}
-                alt="Features images"
-                className=""
-                draggable={false}
-              />
+              <p className="p-5 mx-auto flex justify-center bg-slate-600 mt-5">Hi</p>
               <div className="p-5 grid gap-1">
                 <h2 className="font-bold text-2xl">Downlad Qr code</h2>
                 <p>
@@ -28,12 +23,7 @@ const Features = () => {
               </div>
             </div>
             <div className="bg-slate-800 mx-4 md:mx-0 text-slate-100 rounded-lg grid gap-2 text-left items-center h-25 overflow-hidden">
-              <img
-                src={image}
-                alt="Features images"
-                className=""
-                draggable={false}
-              />
+              <p className="p-5 mx-auto flex justify-center bg-slate-600 mt-5">Hi</p>
               <div className="p-5 grid gap-1">
                 <h2 className="font-bold text-2xl">Qr Code Generator</h2>
                 <p>
@@ -45,12 +35,7 @@ const Features = () => {
               </div>
             </div>
             <div className="bg-slate-800 mx-4 md:mx-0 text-slate-100 rounded-lg grid gap-2 text-left items-center h-25 overflow-hidden">
-              <img
-                src={image}
-                alt="Features images"
-                className=""
-                draggable={false}
-              />
+              <p className="p-5 mx-auto flex justify-center bg-slate-600 mt-5">Hi</p>
               <div className="p-5 grid gap-1">
                 <h2 className="font-bold text-2xl">Scan Code</h2>
                 <p>

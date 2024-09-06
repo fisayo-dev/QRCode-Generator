@@ -1,6 +1,13 @@
-const AppLayout = () => {
+import Footer from "../components/Footer"
+import Header from "../components/Header" 
+
+const AppLayout = ({children}) => {
   return (
-    <div>AppLayout</div>
+    <>
+      <Header />
+      {children}
+      <Footer />
+    </>
   )
 }
 

@@ -1,4 +1,5 @@
 import Button from "../components/Button";
+import { FaMagnifyingGlass } from "react-icons/fa6";
 
 const Generate = () => {
   return (
@@ -9,7 +10,8 @@ const Generate = () => {
             <h2 className="text-center text-3xl font-bold">
               What site would you like to visit to today?
             </h2>
-            <div className="flex items-center bg-slate-200 rounded-lg p-5">
+            <div className="flex items-center bg-slate-200 gap-4 text-slate-700 rounded-lg p-5">
+              <FaMagnifyingGlass />
               <input
                 type="text"
                 placeholder="Paste your link here. e.g https://www.anylink.com"

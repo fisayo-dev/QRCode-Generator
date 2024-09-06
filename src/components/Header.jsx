@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Button from "./Button";
 
 const Header = () => {
@@ -7,8 +8,22 @@ const Header = () => {
         <div className="flex justify-between items-center">
           <h2 className="text-2xl font-bold">Intrix</h2>
           <div className="flex text-center justify-center gap-3">
-            <p>Developer</p>
-            <p>Support</p>
+            <p className="cursor-pointer developer-drop-down-text relative">
+              <p className="">Developer</p>
+              <div
+                className="hidden developer-drop-down border-2 bg-color border-slate-400  z-90 p-5 rounded-lg"
+              >
+                <div className="flex items-center gap-5 w-full">
+                  <img src="" alt="" />
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Dolorum optio fugit voluptatum repellat facilis libero
+                    eligendi, dignissimos rerum, aliquam iste consectetur.{" "}
+                  </p>
+                </div>
+              </div>
+            </p>
+            <p className="cursor-pointer ">Support</p>
           </div>
           <Button>Github</Button>
         </div>

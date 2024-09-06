@@ -35,7 +35,7 @@
 }
 
 .app-container {
-  @apply max-w-7xl mx-auto
+  @apply container mx-auto px-6 
 }
 
 

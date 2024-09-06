@@ -2,7 +2,7 @@ import Button from "../components/Button";
 
 const Hero = () => {
   return (
-    <div className="container mx-auto px-6 ">
+    <div className="app-container">
       <div className="text-slate-200 justify-items-center">
         <div className="grid gap-4 py-10 text-center">
           <h2 className="capitalize text-5xl md:text-6xl font-bold tracking-tight">

@@ -37,7 +37,7 @@ const Features = () => {
               <div className="p-5 grid gap-1">
                 <h2 className="font-bold text-2xl">Qr Code Generator</h2>
                 <p>
-                  Intrix allows you to generate a qrcode for any link very fast
+                  Intrix allows you to generate a qrcode for any link very fast.
                 </p>
                 <Link to="/generate" className="text-slate-100 font-bold">
                   Try the app{" "}

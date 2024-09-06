@@ -1,12 +1,13 @@
 import Footer from "../components/Footer"
 import Header from "../components/Header" 
+import { Outlet } from "react-router-dom"
 
-const AppLayout = ({children}) => {
+const AppLayout = () => {
   return (
     <div className="bg-color">
       <Header />
-      <div className="pt-20 grid gap-10">
-        {children}
+      <div className="pt-20 text-slate-200 grid gap-10">
+        <Outlet />
       </div>
       <Footer />
     </div>

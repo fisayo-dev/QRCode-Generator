@@ -1,7 +1,9 @@
 const Scan = () => {
   return (
-    <div>Scan</div>
-  )
-}
+    <>
+      <p>Scan</p>
+    </>
+  );
+};
 
-export default Scan
+export default Scan;

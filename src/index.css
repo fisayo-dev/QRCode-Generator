@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 * {
-  font-family: 'Montserrat';
+  font-family: 'Space Grotesk','sans-serif','Montserrat';
   padding: 0;
   margin: 0;
   box-sizing: border-box;

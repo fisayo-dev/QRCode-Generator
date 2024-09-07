@@ -1,8 +1,10 @@
 import { NavLink } from "react-router-dom";
 import Button from "../components/Button";
 import { FaMagnifyingGlass } from "react-icons/fa6";
+import { useState } from "react";
 
 const Generate = () => {
+  const [inputField, setInputField] = useState('')
   return (
     <div className="py-10 h-[85vh]">
       <div className="app-container">
@@ -16,10 +18,12 @@ const Generate = () => {
               <input
                 type="text"
                 placeholder="Paste your link here. e.g https://www.anylink.com"
+                value={inputField}
+                onChange={(e) => setInputField(e.target.value)}
               />
             </div>
             <div className="bg-slate-500 p-5 rounded-lg overflow-hidden"></div>
-            <Button>Generate</Button>
+            <Button disabled={inputField.trim() == '' ? true: false}>Generate</Button>
             <NavLink to="/scan" className="text-center py-2 hover:underline cursor-pointer">Scan a QR Code</NavLink>
           </div>
         </div>

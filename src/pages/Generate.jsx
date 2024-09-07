@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Button from "../components/Button";
 import { FaMagnifyingGlass } from "react-icons/fa6";
 
@@ -19,6 +20,7 @@ const Generate = () => {
             </div>
             <div className="bg-slate-500 p-5 rounded-lg overflow-hidden"></div>
             <Button>Generate</Button>
+            <NavLink to="/scan" className="text-center py-2 hover:underline cursor-pointer">Scan a QR Code</NavLink>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ import Button from "./Button";
 
 const Header = () => {
   return (
-    <div className="fixed top-0 w-full z-10 bg-transparent backdrop-blur-md text-white px-5 py-3">
+    <div className="fixed top-0 w-full z-10 bg-transparent backdrop-blur-md text-white py-5">
       <div className="app-container">
         <div className="flex justify-between items-center">
           <Link to="/">

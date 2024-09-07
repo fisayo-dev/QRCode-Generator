@@ -44,7 +44,7 @@ input::placeholder {
 }
 
 .app-container {
-  @apply container mx-auto px-6;
+  @apply container mx-auto px-10;
 }
 
 

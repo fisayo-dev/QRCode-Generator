@@ -1,4 +1,4 @@
-import { FaArrowDown } from "react-icons/fa6";
+import { FaCaretDown } from "react-icons/fa6";
 
 const Faqs = () => {
   return (
@@ -11,31 +11,31 @@ const Faqs = () => {
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <FaArrowDown />
+              <FaCaretDown />
             </div>
             <div className="flex bg-slate-800 gap-5 p-4 rounded-lg items-center justify-betweeen">
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <FaArrowDown />
+              <FaCaretDown />
             </div>
             <div className="flex bg-slate-800 gap-5 p-4 rounded-lg items-center justify-betweeen">
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <FaArrowDown />
+              <FaCaretDown />
             </div>
             <div className="flex bg-slate-800 gap-5 p-4 rounded-lg items-center justify-betweeen">
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <FaArrowDown />
+              <FaCaretDown />
             </div>
             <div className="flex bg-slate-800 gap-5 p-4 rounded-lg items-center justify-betweeen">
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              <FaArrowDown />
+              <FaCaretDown />
             </div>
           </div>
         </div>

@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: var(--app-bg-color);
+}
+
 
 * {
   font-family: 'Space Grotesk',sans-serif;

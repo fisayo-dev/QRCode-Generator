@@ -23,19 +23,10 @@ const Scan = () => {
   return (
     <div className="py-10 h-[85vh]">
       <div className="app-container">
+        <h2 className="text-5xl text-center mb-10">Still under development</h2>
+        {/*
         <div className="py-5 grid justify-items-center">
-          <div className="grid gap-5">
-            <h2 className="text-center text-3xl font-bold">
-              Place you QR code for Intrix to scan!!
-            </h2>
-            {/* <div className="bg-slate-900 rounded-lg overflow-hidden grid justify-items-center">
-              <QrScanner
-                delay={300}
-                style={previewStyle}
-                onError={handleError}
-                onScan={handleScan}
-              />
-            </div> */}
+          
             {scanResult && (
               <div className="flex items-center bg-slate-200 gap-3 text-slate-700 rounded-lg p-3">
                 <p>{scanResult}</p>
@@ -51,8 +42,9 @@ const Scan = () => {
             >
               Generate a QR Code
             </NavLink>
-          </div>
+        </div> 
         </div>
+          */}
       </div>
     </div>
   );

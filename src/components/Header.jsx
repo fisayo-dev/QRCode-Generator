@@ -19,9 +19,9 @@ const Header = () => {
                   <img src="" alt="" />
                   <div className="grid gap-2">
                     <p>
-                      Hi, my name is <b>Fisayo Obadina.</b> I am web developer with
-                      over 3 years of experience. My skills are HTML5, CSS3,
-                      JavaScript, React, NodeJS, Git and Tailwind Css.
+                      Hi, my name is <b>Fisayo Obadina.</b> I am web developer
+                      with over 3 years of experience. My skills are HTML5,
+                      CSS3, JavaScript, React, NodeJS, Git and Tailwind Css.
                     </p>
                     <div className="flex items-center gap-2">
                       <p>Follow me on: </p>
@@ -60,7 +60,13 @@ const Header = () => {
             </p>
             <p className="cursor-pointer ">Support</p>
           </div>
-          <Button>Github</Button>
+          <Link
+            to="https://github.com/fisayo-dev/QRCode-Generator"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <Button>Github Repo</Button>
+          </Link>
         </div>
       </div>
     </div>

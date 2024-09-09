@@ -26,7 +26,7 @@ const Faqs = () => {
         "No, intrix has no authentication and available to all users everywhere.",
     },
     {
-      question: "Can i download a Qr code ?",
+      question: "Can I download a Qr code ?",
       answer: "Of course. Intrix provided unlimited download per qr code.",
     },
     {

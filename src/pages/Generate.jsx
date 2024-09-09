@@ -1,9 +1,8 @@
 import { NavLink } from "react-router-dom";
 import Button from "../components/Button";
-import { FaMagnifyingGlass } from "react-icons/fa6";
+import { FaMagnifyingGlass, FaDownload } from "react-icons/fa6";
 import { useState, useRef, useEffect } from "react";
 import { QRCode } from "react-qrcode-logo";
-import { FaDownload } from "react-icons/fa";
 
 const Generate = () => {
   const [inputField, setInputField] = useState("");

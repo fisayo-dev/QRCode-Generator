@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import AppLayout from "./layouts/AppLayout";
 
-import { PageNotFound, Generate, Scan, Home } from "./pages/index";
+import { PageNotFound, Generate, Scan, Home } from "./pages";
 
 function App() {
   const router = createBrowserRouter(

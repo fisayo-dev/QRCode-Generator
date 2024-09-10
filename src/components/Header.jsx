@@ -11,8 +11,8 @@ const Header = () => {
           <Link to="/">
             <h2 className="text-2xl font-bold">Intrix</h2>
           </Link>
-          <div className="flex text-center justify-center gap-3">
-            <p className="cursor-pointer developer-drop-down-text relative">
+          <div className="hidden md:flex text-center justify-center gap-3">
+            <div className="cursor-pointer developer-drop-down-text relative">
               <p>Developer</p>
               <div className="hidden developer-drop-down border-2 bg-color border-slate-400  z-90 p-5 rounded-lg">
                 <div className="flex items-center gap-5 w-full">
@@ -57,7 +57,7 @@ const Header = () => {
                   </div>
                 </div>
               </div>
-            </p>
+            </div>
             <p className="cursor-pointer ">Support</p>
           </div>
           <Link

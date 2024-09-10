@@ -60,7 +60,7 @@ const Generate = () => {
               className={`bg-slate-900 rounded-lg overflow-hidden ${disableBtn ? 'hidden': 'grid'} justify-items-center`}
             >
               {inputField.trim() !== "" && (
-                <QRCode value={inputField} size={350} fgColor="#000920" />
+                <QRCode value={inputField} size={300} fgColor="#000920" />
               )}
             </div>
             <Button
